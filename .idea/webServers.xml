@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e6cab49b-2e86-41b2-8be3-aa2c78a02e6c" name="Siegfried Webhosting" url="http://siegfried.webhosting.rug.nl/~s3746186">
+        <fileTransfer host="ssh.webhosting.rug.nl" port="22" rootFolder="/home/www/s3746186/site" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
