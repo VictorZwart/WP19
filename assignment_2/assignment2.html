@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Webprogramming Assignment 1</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="application/javascript" src="js/main.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">WP19</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Assignment 2</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+    <div class="row wp-row">
+        <div class="col-md-6">
+            <h1>Contact Form</h1>
+            <p>Please enter your name, age, city, Email address and phone number. We'll contact you for more information.</p>
+            <div class="alert alert-danger" id="form-alert" role="alert">
+                Not all form fields are filled in!
+            </div>
+            <h3 class="assignment">1. Add a BS styled form</h3>
+            <form name="myForm">
+                <div class="form-group">
+                    <label for="InputName">Name</label>
+                    <input type="text" class="form-control" id="InputName" placeholder="Please put your name here..." >
+                </div>
+                <div class="form-group">
+                    <label for="InputAge">Age</label>
+                    <input type="text" class="form-control" id="InputAge" placeholder="Please enter your age here...">
+                </div>
+                <div class="form-group">
+                    <label for="InputCity">City</label>
+                    <input type="text" class="form-control" id="InputCity" placeholder="Please enter the city you live in...">
+                </div>
+                <div>
+                    <label for="InputEmail">E-mail</label>
+                    <input type="text" class="form-control" id="InputEmail" placeholder="John@example.com">
+                </div>
+                <div>
+                    <label for="InputPhoneNumber">Phone number</label>
+                    <input type="text" class="form-control" id="InputPhoneNumber" placeholder="fill in your number like this: 0612345678">
+                </div>
+                <br>
+                <button class="btn-success" id="submitButton" type="button">Submit form</button>
+                <button class="btn-danger" id="eraseButton" type="button">Erase form</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <div id="form-content">
+                <table class="table table-hover">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Name</th>
+                        <td>Reinard</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Age</th>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">City</th>
+                        <td>Groningen</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">E-mailadres</th>
+                        <td>r.g.van.dalen@rug.nl</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Phone number</th>
+                        <td>+31612345678</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <!-- Tabs -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="link-tab" href="#links">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" href="#contact">Contact</a>
+        </li>
+    </ul>
+
+    <!-- Tabs Content -->
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane active" id="links">
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </div>
+        <div class="tab-pane" id="contact">
+            <p>
+                Address 1<br>
+                1111 ZZ Place<br>
+                Country
+            </p>
+
+        </div>
+        <div>
+            <p>s3746186</p><br>
+            <p>Victor Zwart</p><br>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
